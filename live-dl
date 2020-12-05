@@ -1256,7 +1256,7 @@ function func_finalize_download() {
     rm -f "${OUTPUT_PATH}${EXTENSION}"
   fi
 
-  if [ ! "$SKIP_METADATA" ]; then
+  if [ !"$SKIP_METADATA" ]; then
     __info "Trying to write metadata and artwork"
 
     # Write metadata to MP4 (will override existing with -y option)
