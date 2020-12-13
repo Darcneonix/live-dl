@@ -17,7 +17,7 @@ Download live streams from YouTube.
 - Embed YouTube thumbnail as video cover via ~~AtomicParsley~~ (now handled by FFmpeg)
 - Download subtitles if available
 - Keywords filter: only download streams that match specific keywords in title
-- Convert TS to MP4 after downloading
+- Convert TS to ~~MP4~~ MKV after downloading
 
 ## Dependencies
 
